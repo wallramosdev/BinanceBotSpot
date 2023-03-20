@@ -1,0 +1,723 @@
+
+Symbol: AGIXUSDT
+Best Ask: 0.53024000
+Fechar posição.
+AxiosError: Request failed with status code 400
+    at settle (C:\Users\Wall\Documents\Projects\JSProjects\Robot-Crypt\BinanceBotSpot\node_modules\axios\dist\node\axios.cjs:1900:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\Wall\Documents\Projects\JSProjects\Robot-Crypt\BinanceBotSpot\node_modules\axios\dist\node\axios.cjs:2952:11)    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: AxiosHeaders {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/x-www-form-urlencoded',
+      'X-MBX-APIKEY': 'NACollhHfN9YTEJyHhxwoM1ovNX2Ng3YPInZYZg2dd1QKPoVUy4ZjGA6tzDTIfha',
+      'User-Agent': 'axios/1.3.4',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'post',
+    url: 'https://api.binance.com/api/v3/order?symbol=AGIXUSDT&type=MARKET&side=BUY&quantity=1&timestamp=1679251536732&recvWindow=5000&signature=9eec39659b231b36dc1e00676889849b079e41d32db407ef284c3b2e82c252bf',
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: true,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'api.binance.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.binance.com',
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 228,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'POST /api/v3/order?symbol=AGIXUSDT&type=MARKET&side=BUY&quantity=1&timestamp=1679251536732&recvWindow=5000&signature=9eec39659b231b36dc1e00676889849b079e41d32db407ef284c3b2e82c252bf HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Content-Type: application/x-www-form-urlencoded\r\n' +
+      'X-MBX-APIKEY: NACollhHfN9YTEJyHhxwoM1ovNX2Ng3YPInZYZg2dd1QKPoVUy4ZjGA6tzDTIfha\r\n' +
+      'User-Agent: axios/1.3.4\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: api.binance.com\r\n' +
+      'Connection: close\r\n' +
+      'Content-Length: 0\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'POST',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/api/v3/order?symbol=AGIXUSDT&type=MARKET&side=BUY&quantity=1&timestamp=1679251536732&recvWindow=5000&signature=9eec39659b231b36dc1e00676889849b079e41d32db407ef284c3b2e82c252bf',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 400,
+      statusMessage: 'Bad Request',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://api.binance.com/api/v3/order?symbol=AGIXUSDT&type=MARKET&side=BUY&quantity=1&timestamp=1679251536732&recvWindow=5000&signature=9eec39659b231b36dc1e00676889849b079e41d32db407ef284c3b2e82c252bf',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 44,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'api.binance.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://api.binance.com/api/v3/order?symbol=AGIXUSDT&type=MARKET&side=BUY&quantity=1&timestamp=1679251536732&recvWindow=5000&signature=9eec39659b231b36dc1e00676889849b079e41d32db407ef284c3b2e82c252bf',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kEndCalled)]: true,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      'x-mbx-apikey': [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 400,
+    statusText: 'Bad Request',
+    headers: AxiosHeaders {
+      'content-type': 'application/json;charset=UTF-8',
+      'content-length': '79',
+      connection: 'close',
+      date: 'Sun, 19 Mar 2023 18:45:56 GMT',
+      server: 'nginx',
+      'x-mbx-uuid': '3f6ecf3a-7a6f-44f4-8a8b-1b4fd3ed39cb',
+      'x-mbx-used-weight': '1',
+      'x-mbx-used-weight-1m': '1',
+      'strict-transport-security': 'max-age=31536000; includeSubdomains',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '1; mode=block',
+      'x-content-type-options': 'nosniff',
+      'content-security-policy': "default-src 'self'",
+      'x-content-security-policy': "default-src 'self'",
+      'x-webkit-csp': "default-src 'self'",
+      'cache-control': 'no-cache, no-store, must-revalidate',
+      pragma: 'no-cache',
+      expires: '0',
+      'x-cache': 'Error from cloudfront',
+      via: '1.1 47c1359807d43ce291253d0840c23364.cloudfront.net (CloudFront)',
+      'x-amz-cf-pop': 'GRU3-C2',
+      'x-amz-cf-id': 'AZFTIdd7ZTm5jLT-RHXNWc0BSGSD9R3Lr5qp5eodEeGBjwmHiq4xTw=='
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [AxiosHeaders],
+      method: 'post',
+      url: 'https://api.binance.com/api/v3/order?symbol=AGIXUSDT&type=MARKET&side=BUY&quantity=1&timestamp=1679251536732&recvWindow=5000&signature=9eec39659b231b36dc1e00676889849b079e41d32db407ef284c3b2e82c252bf',
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'POST /api/v3/order?symbol=AGIXUSDT&type=MARKET&side=BUY&quantity=1&timestamp=1679251536732&recvWindow=5000&signature=9eec39659b231b36dc1e00676889849b079e41d32db407ef284c3b2e82c252bf HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'X-MBX-APIKEY: NACollhHfN9YTEJyHhxwoM1ovNX2Ng3YPInZYZg2dd1QKPoVUy4ZjGA6tzDTIfha\r\n' +
+        'User-Agent: axios/1.3.4\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: api.binance.com\r\n' +
+        'Connection: close\r\n' +
+        'Content-Length: 0\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'POST',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/api/v3/order?symbol=AGIXUSDT&type=MARKET&side=BUY&quantity=1&timestamp=1679251536732&recvWindow=5000&signature=9eec39659b231b36dc1e00676889849b079e41d32db407ef284c3b2e82c252bf',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'api.binance.com',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kEndCalled)]: true,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: {
+      code: -1021,
+      msg: 'Timestamp for this request is outside of the recvWindow.'
+    }
+  }
+}
+{"e":"24hrTicker","E":1679251557292,"s":"AGIXUSDT","p":"0.00675000","P":"1.289","w":"0.51238811","x":"0.52402000","c":"0.53050000","Q":"1715.00000000","b":"0.53050000","B":"1671.00000000","a":"0.53051000","A":"19.00000000","o":"0.52375000","h":"0.53322000","l":"0.48500000","v":"150606642.00000000","q":"77169052.41301000","O":1679165157291,"C":1679251557291,"F":6434859,"L":6712568,"n":277710}
+
+Symbol: AGIXUSDT
+Best Ask: 0.53051000
+O valor de entrada deve ser igual ou menor que: 0.522. Aguardando para comprar...
+{"e":"24hrTicker","E":1679251558285,"s":"AGIXUSDT","p":"0.00733000","P":"1.400","w":"0.51238837","x":"0.52358000","c":"0.53074000","Q":"1391.00000000","b":"0.53033000","B":"1623.00000000","a":"0.53051000","A":"190.00000000","o":"0.52341000","h":"0.53322000","l":"0.48500000","v":"150606928.00000000","q":"77169238.84645000","O":1679165158285,"C":1679251558285,"F":6434866,"L":6712582,"n":277717}
+
+Symbol: AGIXUSDT
+Best Ask: 0.53051000
+O valor de entrada deve ser igual ou menor que: 0.522. Aguardando para comprar...
+
+
+
+{"e":"24hrTicker","E":1679252763099,"s":"AGIXUSDT","p":"0.00516000","P":"0.990","w":"0.51254626","x":"0.52127000","c":"0.52640000","Q":"391.00000000","b":"0.52640000","B":"1239.00000000","a":"0.52650000","A":"160.00000000","o":"0.52124000","h":"0.53322000","l":"0.48500000","v":"151863746.00000000","q":"77837194.60750000","O":1679166363098,"C":1679252763098,"F":6437830,"L":6717670,"n":279841}
+
+Symbol: AGIXUSDT
+Best Ask: 0.52650000
+Comprei a: 0.52.
+O Valor para venda deve ser acima de: 0.527.
+Aguardando para vender...
+{"e":"24hrTicker","E":1679252764159,"s":"AGIXUSDT","p":"0.00514000","P":"0.986","w":"0.51254630","x":"0.52124000","c":"0.52650000","Q":"160.00000000","b":"0.52651000","B":"3089.00000000","a":"0.52652000","A":"116.00000000","o":"0.52136000","h":"0.53322000","l":"0.48500000","v":"151864167.00000000","q":"77837416.56589000","O":1679166364158,"C":1679252764158,"F":6437831,"L":6717673,"n":279843}
+
+Symbol: AGIXUSDT
+Best Ask: 0.52652000
+Comprei a: 0.52.
+O Valor para venda deve ser acima de: 0.527.
+Aguardando para vender...
+{"e":"24hrTicker","E":1679252765321,"s":"AGIXUSDT","p":"0.00593000","P":"1.137","w":"0.51254662","x":"0.52124000","c":"0.52729000","Q":"431.00000000","b":"0.52723000","B":"1406.00000000","a":"0.52738000","A":"755.00000000","o":"0.52136000","h":"0.53322000","l":"0.48500000","v":"151867618.00000000","q":"77839234.79944000","O":1679166365321,"C":1679252765321,"F":6437831,"L":6717689,"n":279859}
+
+Symbol: AGIXUSDT
+Best Ask: 0.52738000
+Fechar posição.
+AxiosError: Request failed with status code 400
+    at settle (C:\Users\Wall\Documents\Projects\JSProjects\Robot-Crypt\BinanceBotSpot\node_modules\axios\dist\node\axios.cjs:1900:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\Wall\Documents\Projects\JSProjects\Robot-Crypt\BinanceBotSpot\node_modules\axios\dist\node\axios.cjs:2952:11)    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: AxiosHeaders {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/x-www-form-urlencoded',
+      'X-MBX-APIKEY': 'NACollhHfN9YTEJyHhxwoM1ovNX2Ng3YPInZYZg2dd1QKPoVUy4ZjGA6tzDTIfha',
+      'User-Agent': 'axios/1.3.4',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'post',
+    url: 'https://api.binance.com/api/v3/order?symbol=AGIXUSDT&type=MARKET&side=BUY&quantity=1&timestamp=1679252745743&recvWindow=25000&signature=fb87cc516eb63d8ba243ffcf16da26f3f9e48df6f1009734e82121526df611bd',
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: true,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'api.binance.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.binance.com',
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 31,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'POST /api/v3/order?symbol=AGIXUSDT&type=MARKET&side=BUY&quantity=1&timestamp=1679252745743&recvWindow=25000&signature=fb87cc516eb63d8ba243ffcf16da26f3f9e48df6f1009734e82121526df611bd HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Content-Type: application/x-www-form-urlencoded\r\n' +
+      'X-MBX-APIKEY: NACollhHfN9YTEJyHhxwoM1ovNX2Ng3YPInZYZg2dd1QKPoVUy4ZjGA6tzDTIfha\r\n' +
+      'User-Agent: axios/1.3.4\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: api.binance.com\r\n' +
+      'Connection: close\r\n' +
+      'Content-Length: 0\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'POST',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/api/v3/order?symbol=AGIXUSDT&type=MARKET&side=BUY&quantity=1&timestamp=1679252745743&recvWindow=25000&signature=fb87cc516eb63d8ba243ffcf16da26f3f9e48df6f1009734e82121526df611bd',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 400,
+      statusMessage: 'Bad Request',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://api.binance.com/api/v3/order?symbol=AGIXUSDT&type=MARKET&side=BUY&quantity=1&timestamp=1679252745743&recvWindow=25000&signature=fb87cc516eb63d8ba243ffcf16da26f3f9e48df6f1009734e82121526df611bd',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 44,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'api.binance.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://api.binance.com/api/v3/order?symbol=AGIXUSDT&type=MARKET&side=BUY&quantity=1&timestamp=1679252745743&recvWindow=25000&signature=fb87cc516eb63d8ba243ffcf16da26f3f9e48df6f1009734e82121526df611bd',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kEndCalled)]: true,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      'x-mbx-apikey': [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 400,
+    statusText: 'Bad Request',
+    headers: AxiosHeaders {
+      'content-type': 'application/json;charset=UTF-8',
+      'content-length': '51',
+      connection: 'close',
+      date: 'Sun, 19 Mar 2023 19:06:05 GMT',
+      server: 'nginx',
+      'x-mbx-uuid': '60eb2b3e-14dd-4ba2-a600-935e7437d0a2',
+      'x-mbx-used-weight': '1',
+      'x-mbx-used-weight-1m': '1',
+      'strict-transport-security': 'max-age=31536000; includeSubdomains',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '1; mode=block',
+      'x-content-type-options': 'nosniff',
+      'content-security-policy': "default-src 'self'",
+      'x-content-security-policy': "default-src 'self'",
+      'x-webkit-csp': "default-src 'self'",
+      'cache-control': 'no-cache, no-store, must-revalidate',
+      pragma: 'no-cache',
+      expires: '0',
+      'x-cache': 'Error from cloudfront',
+      via: '1.1 84a38ce63246feb53b77e79bbed12696.cloudfront.net (CloudFront)',
+      'x-amz-cf-pop': 'GRU3-C2',
+      'x-amz-cf-id': 'VATzSaVWz3Cl_ixB0aa4WZ7lnT8VZqECviZ6ilHoDDKTA0UzuvwgLw=='
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [AxiosHeaders],
+      method: 'post',
+      url: 'https://api.binance.com/api/v3/order?symbol=AGIXUSDT&type=MARKET&side=BUY&quantity=1&timestamp=1679252745743&recvWindow=25000&signature=fb87cc516eb63d8ba243ffcf16da26f3f9e48df6f1009734e82121526df611bd',
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'POST /api/v3/order?symbol=AGIXUSDT&type=MARKET&side=BUY&quantity=1&timestamp=1679252745743&recvWindow=25000&signature=fb87cc516eb63d8ba243ffcf16da26f3f9e48df6f1009734e82121526df611bd HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'X-MBX-APIKEY: NACollhHfN9YTEJyHhxwoM1ovNX2Ng3YPInZYZg2dd1QKPoVUy4ZjGA6tzDTIfha\r\n' +
+        'User-Agent: axios/1.3.4\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: api.binance.com\r\n' +
+        'Connection: close\r\n' +
+        'Content-Length: 0\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'POST',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/api/v3/order?symbol=AGIXUSDT&type=MARKET&side=BUY&quantity=1&timestamp=1679252745743&recvWindow=25000&signature=fb87cc516eb63d8ba243ffcf16da26f3f9e48df6f1009734e82121526df611bd',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'api.binance.com',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kEndCalled)]: true,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: { code: -1013, msg: 'Filter failure: MIN_NOTIONAL' }
+  }
+}
